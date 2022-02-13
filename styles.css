@@ -1,33 +1,39 @@
-@font-face {
-  font-family: Inter;
-  src: url(./fonts/Inter-Light.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(./fonts/Inter-Black.ttf) format("truetype"); 
-  font-weight: bold;
-}
+@import url('./fonts/inter.css');
 
 .page {
   font-family: "Inter", sans-serif;
   background-color: #2A2C2F;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.page__wrapper {
   max-width: 1280px;
   max-height: 7473px;
+}
+
+.header {
+  max-width: 984px;
   margin: 0 auto;
 }
 
 .logo {
+  padding: 34px 0 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo__image {
   max-width: 270px;
   max-height: 70px;
 }
 
 .lead {
-  max-width: 984px;
   max-height: 983px;
   display: flex;
   flex-wrap: wrap;
-  color: #fff;
   justify-content: center;
   margin: 0 auto;
 }
@@ -36,7 +42,7 @@
   margin: 0 auto 32px;
   font-size: 96px;
   line-height: 100px;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   max-width: 793px;
   max-height: 200px;
@@ -47,7 +53,7 @@
   text-align: center;
   font-size: 30px;
   line-height: 36px;
-  font-weight: normal;
+  font-weight: 400;
   max-width: 720px;
   max-height: 72px;
 }
@@ -55,4 +61,61 @@
 .lead__image {
   max-height: 615px;
   filter: grayscale(100%);
+}
+
+.intro {
+  max-width: 785px;
+  max-height: 490px;
+  margin-top: 92px;
+}
+
+.intro__title {
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 900;
+  margin: 0 0 40px;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  max-width: 720px;
+}
+
+.intro__quote-author {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  margin: 0 0 32px;
+  max-width: 720px;
+  text-align: end;
+}
+
+.intro__text {
+  font-size: 16px;
+  line-height: 26.08px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 720px;
+}
+
+.photo-grid {
+  max-width: 1184px;
+  max-height: 442px;
+  margin: 118px 0 92px;
+}
+
+.photo-grid__container {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.photo-grid__item {
+  list-style: none;
 }
