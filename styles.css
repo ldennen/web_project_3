@@ -196,6 +196,11 @@
   }
 }
 
+.places {
+  max-width: calc(100% - 293px);
+  margin: 0 auto;
+}
+
 .places__container {
   padding: 0;
   margin: 0;
@@ -241,6 +246,11 @@
 
 .button:hover {
   background-color: #0063D2;
+}
+
+.button__place_cover {
+  width: 137px;
+  margin: 32px auto 0;
 }
 
 .place__website {
@@ -290,17 +300,51 @@
 
 .cover {
   max-width: calc(100% - 96px);
-  max-height: 740px;
+  position: relative;
+  margin: 92px auto;
 }
 
 .cover__overlay {
-  background-image: url('./images/overlay.jpg');
-  opacity: 30%;
-  object-fit: contain;
+  position: relative;
 }
 
 .cover__background {
-  background-image: url('./images/background.jpg');
   object-fit: contain;
+  position: absolute;
 }
 
+.cover__text-wrapper {
+  position: absolute;
+  top: 243px;
+  left: 264px;
+  width: calc(100% - 528px);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cover__title {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  margin: 0 0 32px;
+}
+
+.cover__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-bottom: 24px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: center;
+}
