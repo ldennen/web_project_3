@@ -20,7 +20,7 @@
   background-color: #0063D2;
 }
 
-.button__location_cover {
+.button_location_cover {
   width: 137px;
   margin: 32px auto 0;
 }
@@ -30,7 +30,7 @@
     margin: 0;
   }
 
-  .button__location_cover {
+  .button_location_cover {
     margin: 32px auto 0;
   }
 }
@@ -42,7 +42,7 @@
     left: 5%;
   }
 
-  .button__location_cover {
+  .button_location_cover {
     margin: 16px auto 0;
     left: 0;
   }
