@@ -2,7 +2,8 @@
 ### Overview  
 * Intro  
 * Figma  
-* Images  
+* Images
+* Github Pages Link 
   
 **Intro**    
   
@@ -15,3 +16,7 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 **Techniques and Technologies**  
   
 This project utilizes html and css and showcases the use of figma, bem methodology, flexbox, grid, and adaptive design.
+
+**Github Pages**  
+  
+* [Link to the project on Github Pages](https://ldennen.github.io/web_project_3/)
