@@ -1,0 +1,162 @@
+.places {
+  max-width: calc(100% - 293px);
+  margin: 0 11.5625%;
+}
+
+.places__container {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-gap: 80px;
+}
+
+.place {
+  max-width: 984px;
+  list-style: none;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  grid-template-rows: auto auto 1fr;
+  column-gap: 40px;
+}
+
+
+.place__title {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  margin: 0 0 48px;
+  max-width: 460px;
+}
+
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 48px;
+  max-width: 484px;
+}
+
+.place__website-url-heading {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+
+.place__website-artist {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.place__image {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.place__text-container {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column: 2;
+  max-width: 484px;
+}
+
+.place__text {
+  font-size: 18px;
+  line-height: 29.34px;
+  font-weight: 400;
+  margin: 0 0 25px;
+}
+
+.place__text:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1130px) {
+  .places {
+    max-width: calc(100% - 48px);
+    margin: 0 3.125%;
+  }
+
+  .places__container {
+    grid-gap: 72px;
+  }
+
+  .place {
+    column-gap: 28px;
+  }
+
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0 0 46px;
+  }
+
+  .place__website {
+    margin-bottom: 46px;
+  }
+
+  .place__text {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .places {
+    margin: 0 5%;
+    max-width: 90%;
+  }
+
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 30px;
+    width: 100%;
+  }
+
+  .place__title {
+    margin: 0;
+  }
+
+  .place__website {
+    margin: 0;
+  }
+
+  .place__text-container {
+    grid-row: 4;
+    grid-column: 1;
+    max-width: fit-content;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .places__container {
+    grid-gap: 50px;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 5%;
+  }
+
+  .place__website {
+    margin: 0 5%;
+  }
+
+  .place__text-container {
+    margin: 0 5%;
+  }
+}

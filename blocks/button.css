@@ -1,0 +1,50 @@
+.button {
+  max-width: 248px;
+  height: 48px;
+  background-color: #0278FE;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 600;
+  transition: background-color .25s ease-out;
+  display: block;
+  text-align: center;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #0063D2;
+}
+
+.button__place_cover {
+  width: 137px;
+  margin: 32px auto 0;
+}
+
+@media screen and (max-width: 650px) {
+  .button {
+    margin: 0;
+  }
+
+  .button__place_cover {
+    margin: 32px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button {
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+  }
+
+  .button__place_cover {
+    margin: 16px auto 0;
+    left: 0;
+  }
+}
