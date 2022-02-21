@@ -1,0 +1,9 @@
+.page {
+  font-family: "Inter", sans-serif;
+  background-color: #2A2C2F;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+  

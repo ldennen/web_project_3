@@ -1,0 +1,15 @@
+.page__wrapper {
+  max-width: 1280px;
+}
+  
+@media screen and (max-width: 768px) {
+  .page__wrapper {
+    max-width: 768px;
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .page__wrapper {
+    max-width: 320px;
+  }
+}

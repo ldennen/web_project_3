@@ -20,18 +20,9 @@
   background-color: #0063D2;
 }
 
-.button_location_cover {
-  width: 137px;
-  margin: 32px auto 0;
-}
-
 @media screen and (max-width: 650px) {
   .button {
     margin: 0;
-  }
-
-  .button_location_cover {
-    margin: 32px auto 0;
   }
 }
 
@@ -40,10 +31,5 @@
     max-width: 90%;
     position: relative;
     left: 5%;
-  }
-
-  .button_location_cover {
-    margin: 16px auto 0;
-    left: 0;
   }
 }

@@ -1,0 +1,19 @@
+.place__text-container {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column: 2;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 650px) {
+  .place__text-container {
+    grid-row: 4;
+    grid-column: 1;
+    max-width: fit-content;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__text-container {
+    margin: 0 5%;
+  }
+}

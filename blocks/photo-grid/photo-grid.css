@@ -1,0 +1,18 @@
+.photo-grid {
+  width: calc(100% - 96px);
+  margin: 118px auto 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: 93.75%;
+    margin: 90px 3.125% 88px;
+  }
+}
+  
+@media screen and (max-width: 640px) {
+  .photo-grid {
+    width: 90%;
+    margin: 90px 5% 62px;
+  }
+}
