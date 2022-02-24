@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 16px;
+  gap: 16px;
   list-style: none;
 }
 
@@ -19,6 +19,6 @@
   .photo-grid__container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
-    grid-gap: 12px;
+    gap: 12px;
   }
 }
